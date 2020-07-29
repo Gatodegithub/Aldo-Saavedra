@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aldo Saavedra</title>
+  <meta name="description"
+    content="Aldo Saavedra desarrollador web, portafolio para dar a conocer mis conocimientos y para buscar trabajo">
+  <meta name="keywords" content="aldo saavedra portafolio, portafolio de aldo saavedra" />
+  <meta property="og:title" content="Aldo Saavedra | Desarrollador Web">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sohellett.cl/">
+  <meta property="og:image" content="https://sohellett.cl/img/developer-guide-blog-2.png">
+  <meta property="og:description" content="Portfolio de aldo Saavedra, desarrollador web">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="@aldoleandro13">
+  <meta property="twitter:title" content="Aldo Saavedra | Desarrollador Web">
+  <meta property="twitter:description" content="Portfolio de aldo Saavedra, desarrollador web">
+  <meta property="twitter:image" content="https://sohellett.cl/img/developer-guide-blog-2.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700|Roboto:400,700i&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="shortcut icon" href="img/developer-guide-blog-2.png">
+  <script src="js/nav.js" defer="true"></script>
+  <script src="js/scripts.js" defer="true"></script>
+  <script src="js/aos.js"></script>
+</head>
+
+<body>
+  <button id="back-to-top-btn"><img src="img/proximo.svg" alt="flecha-top" class="flecha"></button>
+
+  <nav class="navbar" id="navbar" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+    <a href="#" class="navbar-brand"><span>A</span>ldo <span>S</span>aavedra</a>
+    <!-- <a href="" class="navbar-brand"><img src="img/mobile2.png" alt="logo"
+                style="width: 70px;vertical-align:middle"></a> -->
+    <ul>
+      <li><a href="#conoceme">Sobre mi</a></li>
+      <li><a href="#tecnologias">Habilidades</a></li>
+      <li><a class="contact">Contacto</a></li>
+    </ul>
+    <button class="navbar-toggler">
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head text-center">
+        <p class="modal-card-title">Contactame!</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content ... -->
+        <form action="#" method="POST">
+
+          <div class="field">
+            <label class="label">Nombre y apellido</label>
+            <div class="control">
+              <input class="input is-primary is-rounded is-small" type="text"
+                title="Solo letras, no supere los 30 caracteres" placeholder="Ingrese su nombre y apellido"
+                pattern="[A-Za-z ]{2,30}" id="nombref1" name="nombre" autocomplete="off" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input is-primary is-rounded is-small" type="email" title="Ingrese su email"
+                placeholder="Ingrese su email" id="email1" name="email" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$"
+                autocomplete="off" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Mensaje</label>
+            <div class="control">
+              <textarea class="textarea is-primary has-fixed-size is-small" placeholder="Escribeme..."
+                title="Maximo 400 caracteres" rows="3" minlength="10" maxlength="400" id="mensaje1" name="mensaje" autocomplete="off" required></textarea>
+            </div>
+          </div>
+
+          <p id="mensajeError1"></p>
+
+          <footer class="modal-card-foot">
+            <button class="button is-primary is-fullwidth is-outlined" type="submit">Enviar</button>
+          </footer>
+        </form>
+
+      </section>
+    </div>
+  </div>
+
+  <header class="principal" itemscope itemtype="https://schema.org/SearchResultsPage">
+
+    <section class="textos-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+      <h1 itemprop="description">Desarrollador Web</h1>
+      <h2 itemprop="name">Aldo Saavedra</h2>
+    </section>
+
+    <div class="wave" id="conoceme">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #fff;"></path>
+      </svg>
+    </div>
+
+  </header>
+
+  <h3 class="text-center">Conoceme</h3>
+
+  <!-- Acordion -->
+  <section class="seccion">
+    <div class="contenedor-acordion">
+
+      <div class="accordion">
+        <div class="accordion-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="accordion-item-header">
+            Sobre Mi
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, quidem.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="accordion-item-header">
+            ¿Que podria hacer por tí?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quae. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Totam, delectus nam tempore aliquid voluptatem minus.
+              Quas corporis exercitationem ea perspiciatis.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="accordion-item-header">
+            En mi tiempo libre yo...
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quae Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Earum, enim? Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Provident, rerum!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <h3 class="text-center">&heartsuit; API Tibia &#xAE;</h3>
+
+      <table>
+        <tr>
+          <td class="td1">Character: </td>
+          <td><input class="input rounded" type="text" name="nombre" id="nombre"
+              title="Introduce el nombre del character"></td>
+        </tr>
+      </table>
+
+      <button class="button is-rounded" type="button" id="consulta">Consultar</button>
+
+      <ul class="lista__datos">
+
+      </ul>
+    </aside>
+
+  </section>
+
+  <!-- Redes sociales -->
+  <div class="contenedor-sociales centrado">
+    <ul class="lista-medias">
+      <li data-aos="fade-up-right" data-aos-easing="linear" data-aos-duration="500"><a href="#"><i class="fab"><img
+              class="rotating" src="img/instagram.png"></i></a></li>
+
+      <li data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500"><a href="#"><i class="fab"><img
+              class="rotating git" src="img/github.svg" alt=""></i></a></li>
+
+      <li data-aos="zoom-out-down" data-aos-easing="linear" data-aos-duration="500"><a href="#"><i class="fab"><img
+              class="rotating" src="img/linkedin.png" alt=""></i></a></li>
+    </ul>
+  </div>
+
+  <h3 class="contenedor text-center tecnologias__h3" id="tecnologias">¿Que tecnologias sé?</h3>
+
+  <section class="contenedor seccion__cards">
+
+    <div class="card" data-aos="flip-right" data-aos-duration="1000">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="img/html5.svg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content text-center">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-3 text-center title__tec">Html5</p>
+            <progress class="progress is-small is-primary" value="95" max="100"></progress>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris.
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-aos="flip-right" data-aos-duration="1000">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="img/css.svg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content text-center">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-3 text-center title__tec">Css - Frameworks</p>
+            <progress class="progress is-small is-primary" value="95" max="100"></progress>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris.
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-aos="flip-right" data-aos-duration="1000">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="img/javascr.svg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content text-center">
+        <div class="media">
+          <div class="media-content text-center">
+            <p class="title is-3 title__tec">javaScript - Libraries</p>
+            <progress class="progress is-small is-primary" max="100"></progress>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris.
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-aos-duration="2000">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="img/gitt.svg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content text-center">
+        <div class="media">
+          <div class="media-content text-center">
+            <p class="title is-3 title__tec">Git - Github</p>
+            <progress class="progress is-small is-primary" max="100"></progress>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris.
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-aos-duration="2000">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="img/phpi.svg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content text-center">
+        <div class="media">
+          <div class="media-content text-center">
+            <p class="title is-3 title__tec">Php</p>
+            <progress class="progress is-small is-primary" max="100"></progress>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris.
+        </div>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-aos-duration="2000">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="img/wpr.svg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content text-center">
+        <div class="media">
+          <div class="media-content text-center">
+            <p class="title is-3 title__tec">Wordpress</p>
+            <progress class="progress is-small is-primary" value="65" max="100">65%</progress>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris.
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="content">
+      <p class="text-center texto__footer">
+        <strong>Portfolio</strong> de <a href="https://sohellett.cl">Aldo Saavedra</a>. Encantado de ayudarte, con todo
+        lo que sé, sacaremos adelante tú proyecto :)
+      </p>
+
+      <form action="#" method="POST" class="form__footer">
+
+        <ul class="lista__footer">
+          <li class="insta"><a href="#">Instagram</a></li>
+          <li class="github"><a href="#">Github</a></li>
+          <li class="linkedin"><a href="#">Linkedin</a></li>
+        </ul>
+
+        <div class="field">
+          <label class="label">Nombre y apellido</label>
+          <div class="control">
+            <input class="input is-primary is-rounded is-small" type="text"
+              title="Solo letras, no supere los 30 caracteres" placeholder="Ingrese su nombre y apellido"
+              pattern="[A-Za-z ]{2,30}" id="nombref" name="nombre" autocomplete="off" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input is-primary is-rounded is-small" type="email" title="Ingrese su email"
+              placeholder="Ingrese su email" id="email" name="email" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$"
+              autocomplete="off" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Mensaje</label>
+          <div class="control">
+            <textarea class="textarea is-primary has-fixed-size is-small" placeholder="Escribeme..." title="Maximo 400 caracteres" rows="3" minlength="10" maxlength="400" id="mensaje" name="mensaje" autocomplete="off" required></textarea>
+          </div>
+        </div>
+
+        <p id="mensajeError"></p>
+
+        <footer class="modal-card-foot">
+
+          <button class="button is-primary is-fullwidth is-outlined" type="submit">Enviar</button>
+          <div class="horizontal-1">¡Exito!</div>
+
+        </footer>
+      </form>
+
+    </div>
+
+
+  </footer>
+
+  <script>AOS.init();</script>
+</body>
+
+</html>
